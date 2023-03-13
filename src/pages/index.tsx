@@ -1,4 +1,5 @@
 import Head from "next/head"
+import { useAddress, useDisconnect, useMetamask } from "@thirdweb-dev/react"
 import { ConnectWallet } from "@thirdweb-dev/react"
 
 export default function Home() {

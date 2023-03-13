@@ -3,7 +3,7 @@ import type { AppProps } from "next/app"
 import { ThirdwebProvider } from "@thirdweb-dev/react"
 import "../styles/globals.css"
 
-const activeChain = "ethereum"
+const activeChain = "mumbai"
 
 export default function App({ Component, pageProps }: AppProps) {
 	return (
